@@ -57,7 +57,7 @@ else
 
 	declare -i memDiff=0
 
-	declare -i stableCount=0
+	#Initial status flag
 	declare -i initialCount=0
 
 	declare -a memUsage
@@ -80,7 +80,6 @@ else
 
 			#============== Initial ==============
 			let i=0
-			let initialCount=1
 			currentColor=$colorWhite
 			averageColor=$colorWhite
 			maxColor=$colorWhite
@@ -91,7 +90,6 @@ else
 			memAverage=0
 			memAverageOld=0
 			memDiff=0
-			stableCount=0
 			initialCount=0
 			lowPowerControl=0
 			lowPowerInterval=5
