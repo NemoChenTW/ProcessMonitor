@@ -1,0 +1,32 @@
+##====== Color Setting ======
+lightRed="\033[31;1m"
+lightGreen="\033[32;1m"
+lightYellow="\033[33;1m"
+lightBlue="\033[34;1m"
+lightPurple="\033[35;1m"
+lightCyan="\033[36;1m"
+
+red="\033[31m"
+green="\033[32m"
+yellow="\033[33m"
+blue="\033[34m"
+purple="\033[35m"
+cyan="\033[36m"
+
+lightReverseRed="\033[31;1;7m"
+lightReverseGreen="\033[32;1;7m"
+lightReverseYellow="\033[33;1;7m"
+lightReverseBlue="\033[34;1;7m"
+lightReversePurple="\033[35;1;7m"
+lightReverseCyan="\033[36;1;7m"
+
+reverseRed="\033[31;7m"
+reverseGreen="\033[32;7m"
+reverseYellow="\033[33;7m"
+reverseBlue="\033[34;7m"
+reversePurple="\033[35;7m"
+reverseCyan="\033[36;7m"
+
+colorWhite="\033[37;1m"
+colorEnd="\033[0m"
+##====== Color Setting ======
